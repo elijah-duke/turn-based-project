@@ -11,9 +11,18 @@ config_version=5
 [application]
 
 config/name="Turn Based Project"
+run/main_scene="uid://c0ictaoq8bdq2"
 config/features=PackedStringArray("4.4", "Forward Plus")
-config/icon="res://icon.svg"
+config/icon="uid://bbgy7ch2a7sl1"
 
 [dotnet]
 
 project/assembly_name="Turn Based Project"
+
+[file_customization]
+
+folder_colors={
+"res://assets/": "pink",
+"res://scenes/": "yellow",
+"res://scripts/": "teal"
+}
