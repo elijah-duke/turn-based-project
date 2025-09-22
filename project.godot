@@ -11,7 +11,7 @@ config_version=5
 [application]
 
 config/name="Turn Based Project"
-run/main_scene="uid://c0ictaoq8bdq2"
+run/main_scene="uid://bn2javhkd8wa5"
 config/features=PackedStringArray("4.4", "C#", "Forward Plus")
 config/icon="uid://bbgy7ch2a7sl1"
 
