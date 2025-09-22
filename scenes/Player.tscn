@@ -1,9 +1,11 @@
-[gd_scene load_steps=2 format=3 uid="uid://cqjgowq6mqo15"]
+[gd_scene load_steps=3 format=3 uid="uid://cqjgowq6mqo15"]
 
 [ext_resource type="Texture2D" uid="uid://bbgy7ch2a7sl1" path="res://assets/level_tiles/tile_0128.png" id="1_p0vlq"]
+[ext_resource type="Script" uid="uid://drmnt3hji477c" path="res://scripts/Player.cs" id="1_v6fml"]
 
 [node name="Player" type="Node2D"]
+script = ExtResource("1_v6fml")
 
-[node name="Sprite2D" type="Sprite2D" parent="."]
+[node name="PlayerSprite" type="Sprite2D" parent="."]
 texture = ExtResource("1_p0vlq")
 centered = false

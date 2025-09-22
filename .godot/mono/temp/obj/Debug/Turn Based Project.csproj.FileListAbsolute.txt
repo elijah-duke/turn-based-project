@@ -1,0 +1,18 @@
+/Users/eliduke/Documents/GitHub/turn-based-project/.godot/mono/temp/bin/Debug/Turn Based Project.deps.json
+/Users/eliduke/Documents/GitHub/turn-based-project/.godot/mono/temp/bin/Debug/Turn Based Project.runtimeconfig.json
+/Users/eliduke/Documents/GitHub/turn-based-project/.godot/mono/temp/bin/Debug/Turn Based Project.dll
+/Users/eliduke/Documents/GitHub/turn-based-project/.godot/mono/temp/bin/Debug/Turn Based Project.pdb
+/Users/eliduke/Documents/GitHub/turn-based-project/.godot/mono/temp/bin/Debug/GodotSharp.dll
+/Users/eliduke/Documents/GitHub/turn-based-project/.godot/mono/temp/bin/Debug/GodotSharpEditor.dll
+/Users/eliduke/Documents/GitHub/turn-based-project/.godot/mono/temp/obj/Debug/Turn Based Project.csproj.AssemblyReference.cache
+/Users/eliduke/Documents/GitHub/turn-based-project/.godot/mono/temp/obj/Debug/Turn Based Project.GeneratedMSBuildEditorConfig.editorconfig
+/Users/eliduke/Documents/GitHub/turn-based-project/.godot/mono/temp/obj/Debug/Turn Based Project.AssemblyInfoInputs.cache
+/Users/eliduke/Documents/GitHub/turn-based-project/.godot/mono/temp/obj/Debug/Turn Based Project.AssemblyInfo.cs
+/Users/eliduke/Documents/GitHub/turn-based-project/.godot/mono/temp/obj/Debug/Turn Based Project.csproj.CoreCompileInputs.cache
+/Users/eliduke/Documents/GitHub/turn-based-project/.godot/mono/temp/obj/Debug/Turn Based Project.sourcelink.json
+/Users/eliduke/Documents/GitHub/turn-based-project/.godot/mono/temp/obj/Debug/Turn Bas.E53B7098.Up2Date
+/Users/eliduke/Documents/GitHub/turn-based-project/.godot/mono/temp/obj/Debug/Turn Based Project.dll
+/Users/eliduke/Documents/GitHub/turn-based-project/.godot/mono/temp/obj/Debug/refint/Turn Based Project.dll
+/Users/eliduke/Documents/GitHub/turn-based-project/.godot/mono/temp/obj/Debug/Turn Based Project.pdb
+/Users/eliduke/Documents/GitHub/turn-based-project/.godot/mono/temp/obj/Debug/Turn Based Project.genruntimeconfig.cache
+/Users/eliduke/Documents/GitHub/turn-based-project/.godot/mono/temp/obj/Debug/ref/Turn Based Project.dll

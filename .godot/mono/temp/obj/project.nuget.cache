@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "9z2OwISZGos=",
+  "success": true,
+  "projectFilePath": "/Users/eliduke/Documents/GitHub/turn-based-project/Turn Based Project.csproj",
+  "expectedPackageFiles": [
+    "/Users/eliduke/.nuget/packages/godot.sourcegenerators/4.4.1/godot.sourcegenerators.4.4.1.nupkg.sha512",
+    "/Users/eliduke/.nuget/packages/godotsharp/4.4.1/godotsharp.4.4.1.nupkg.sha512",
+    "/Users/eliduke/.nuget/packages/godotsharpeditor/4.4.1/godotsharpeditor.4.4.1.nupkg.sha512"
+  ],
+  "logs": []
+}
