@@ -1,4 +1,5 @@
-res://scenes/levels/LevelBase.tscn
 res://scenes/Player.tscn
+res://scenes/levels/LevelBase.tscn
 res://scenes/levels/LevelOne.tscn
 res://scripts/levels/LevelBase.cs
+res://scripts/Player.cs

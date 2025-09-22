@@ -6,11 +6,13 @@ public partial class LevelBase : Node2D
     private enum State { Idle, Moving };
 
     private State state = State.Idle;
-    private Player player = null;
+    private Player player = null!;
+    private TileMapLayer walls = null!;
 
     public override void _Ready()
     {
         player = GetNode<Player>("Player");
+        walls = GetNode<TileMapLayer>("Walls");
     }
 
     public override void _Input(InputEvent @event)
@@ -29,26 +31,28 @@ public partial class LevelBase : Node2D
         else if (@event.IsActionPressed(Constants.Inputs.MoveRight))
             move = Direction.Right;
 
-        if (move != null)
-        {
-            player.Move((Direction)move);
-            state = State.Moving;
-        }
+        makeMove(move);
     }
 
 
     public void OnPlayerMoveFinished()
     {
-        var direction = getMove();
-        if (direction != null)
+        makeMove(getMove());
+    }
+
+    private void makeMove(Direction? direction)
+    {
+        if (direction != null && playerCanMove((Direction)direction))
         {
             player.Move((Direction)direction);
+            state = State.Moving;
         }
         else
         {
-           state = State.Idle; 
+            state = State.Idle;
         }
     }
+
 
     private Direction? getMove()
     {
@@ -63,4 +67,10 @@ public partial class LevelBase : Node2D
 
         return null;
     }
+
+    private bool playerCanMove(Direction direction)
+    {
+        return walls.GetCellTileData(player.Coords.Offset(direction)) == null;
+    }
+
 }

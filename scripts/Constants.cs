@@ -10,12 +10,39 @@ public static class Constants
         public const string MoveLeft = "move_left";
         public const string MoveRight = "move_right";
     }
+
+
+
 }
 
-public enum Direction 
+public enum Direction
 {
     Up,
     Down,
     Left,
     Right
+}
+
+
+namespace Godot
+{
+    public static class Vector2IExtensions
+    {
+        public static Vector2I Offset(this Vector2I coords, Direction direction)
+        {
+            switch (direction)
+            {
+                case Direction.Up:
+                    return coords + Vector2I.Up;
+                case Direction.Down:
+                    return coords + Vector2I.Down;
+                case Direction.Left:
+                    return coords + Vector2I.Left;
+                case Direction.Right:
+                    return coords + Vector2I.Right;
+                default:
+                    return coords;
+            }
+        }
+    }
 }

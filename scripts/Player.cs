@@ -9,9 +9,23 @@ public partial class Player : Node2D
 
 
 	[Export]
-	float HorzMoveTime = 1.0f / 3.0f;
+	float HorzMoveTime = 1.0f / 5.0f;
 	[Export]
-	float VertMoveTime = 1.0f / 3.0f;
+	float VertMoveTime = 1.0f / 5.0f;
+
+
+
+	public Vector2I Coords
+	{
+		get
+		{
+			return new Vector2I
+			(
+				(int)Math.Round(Position.X) / (int)Constants.TILE_WIDTH,
+				(int)Math.Round(Position.Y) / (int)Constants.TILE_HEIGHT
+			);
+		}
+	}
 
 
 	private Sprite2D playerSprite;
@@ -62,4 +76,8 @@ public partial class Player : Node2D
 	{
 		EmitSignal(SignalName.OnMoveFinished);
 	}
+
+
+
+
 }
