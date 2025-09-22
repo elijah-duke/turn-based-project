@@ -3,6 +3,11 @@ using System;
 
 public partial class Player : Node2D
 {
+
+	[Signal]
+	public delegate void OnMoveFinishedEventHandler();
+
+
 	[Export]
 	float HorzMoveTime = 1.0f / 3.0f;
 	[Export]
@@ -17,7 +22,7 @@ public partial class Player : Node2D
 	}
 
 
-	public void Move(Direction direction) 
+	public void Move(Direction direction)
 	{
 		Vector2 offset = Vector2.Zero;
 		float moveTime = 0.0f;
@@ -45,15 +50,16 @@ public partial class Player : Node2D
 				break;
 		}
 
-		if (offset != Vector2.Zero) 
+		if (offset != Vector2.Zero)
 		{
 			var moveTween = CreateTween();
 			moveTween.TweenProperty(this, "position", Position + offset, moveTime);
+			moveTween.Finished += OnTweenFinish;
 		}
+	}
 
-
-
-
-
+	private void OnTweenFinish()
+	{
+		EmitSignal(SignalName.OnMoveFinished);
 	}
 }

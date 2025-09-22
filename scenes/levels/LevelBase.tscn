@@ -294,3 +294,5 @@ tile_set = SubResource("TileSet_yn5qj")
 
 [node name="Player" parent="." instance=ExtResource("3_e7klb")]
 position = Vector2(128, 128)
+
+[connection signal="OnMoveFinished" from="Player" to="." method="OnPlayerMoveFinished"]
