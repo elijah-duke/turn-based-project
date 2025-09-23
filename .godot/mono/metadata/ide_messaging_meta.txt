@@ -1,2 +1,2 @@
-﻿56271
+﻿58541
 /Users/eliduke/Desktop/Godot.app/Contents/MacOS/Godot
