@@ -7,11 +7,22 @@ public partial class LevelBase : Node2D
 
     private State state = State.Idle;
     private Player player = null!;
+    private TileMapLayer ground = null!;
     private TileMapLayer walls = null!;
+
+
+    
+    [Export]
+    public PackedScene EncounterScene = null;
+
+    /*[Export]
+    public PackedScene GymScene = null;
+    */
 
     public override void _Ready()
     {
         player = GetNode<Player>("Player");
+        ground = GetNode<TileMapLayer>("Ground");
         walls = GetNode<TileMapLayer>("Walls");
     }
 
@@ -34,9 +45,26 @@ public partial class LevelBase : Node2D
         makeMove(move);
     }
 
+    public void Encounter()
+    {
+        if (EncounterScene != null)
+        {
+            Random rng = new Random();
+            int r = rng.Next(100);
+            if (r < 10) {
+                GD.Print("Random event triggered.");
+                GetTree().ChangeSceneToPacked(EncounterScene);
+            }
+        }
+    }
+
 
     public void OnPlayerMoveFinished()
     {
+        if ((bool)ground.GetCellTileData(player.Coords).GetCustomData("wildGrass"))
+        {
+            Encounter();
+        }
         makeMove(getMove());
     }
 

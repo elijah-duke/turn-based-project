@@ -9,7 +9,9 @@ texture = ExtResource("2_dr2ln")
 separation = Vector2i(1, 1)
 0:0/0 = 0
 1:0/0 = 0
+1:0/0/custom_data_0 = true
 2:0/0 = 0
+2:0/0/custom_data_0 = true
 3:0/0 = 0
 4:0/0 = 0
 5:0/0 = 0
@@ -138,8 +140,11 @@ separation = Vector2i(1, 1)
 9:10/0 = 0
 10:10/0 = 0
 11:10/0 = 0
+9:1/0 = 0
 
 [sub_resource type="TileSet" id="TileSet_jguw4"]
+custom_data_layer_0/name = "wildGrass"
+custom_data_layer_0/type = 1
 sources/0 = SubResource("TileSetAtlasSource_yn5qj")
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_5vqh1"]
@@ -294,6 +299,6 @@ tile_set = SubResource("TileSet_yn5qj")
 
 [node name="Camera2D" type="Camera2D" parent="Player"]
 offset = Vector2(8, 8)
-zoom = Vector2(4, 4)
+zoom = Vector2(3, 3)
 
 [connection signal="OnMoveFinished" from="Player" to="." method="OnPlayerMoveFinished"]
