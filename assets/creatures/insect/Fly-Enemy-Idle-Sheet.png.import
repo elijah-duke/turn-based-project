@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://ti2tngift3rm"
-path="res://.godot/imported/Fly-Enemy-Idle-Sheet.png-d12897b7b75915e38d6ddd56e9192970.ctex"
+path="res://.godot/imported/Fly-Enemy-Idle-Sheet.png-63194de9e62053c2c7b556ed7ccdc9d0.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/sprites/creatures/insect/Fly-Enemy-Idle-Sheet.png"
-dest_files=["res://.godot/imported/Fly-Enemy-Idle-Sheet.png-d12897b7b75915e38d6ddd56e9192970.ctex"]
+source_file="res://assets/creatures/insect/Fly-Enemy-Idle-Sheet.png"
+dest_files=["res://.godot/imported/Fly-Enemy-Idle-Sheet.png-63194de9e62053c2c7b556ed7ccdc9d0.ctex"]
 
 [params]
 

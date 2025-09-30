@@ -11,14 +11,10 @@ public partial class LevelBase : Node2D
     private TileMapLayer walls = null!;
 
 
-    
+
     [Export]
-    public PackedScene EncounterScene = null;
-
-    /*[Export]
-    public PackedScene GymScene = null;
-    */
-
+    public Scenes encounterScene;
+    
     public override void _Ready()
     {
         player = GetNode<Player>("Player");
@@ -47,13 +43,13 @@ public partial class LevelBase : Node2D
 
     public void Encounter()
     {
-        if (EncounterScene != null)
+        if (SceneManager.instance != null)
         {
             Random rng = new Random();
             int r = rng.Next(100);
-            if (r < 10) {
-                GD.Print("Random event triggered.");
-                GetTree().ChangeSceneToPacked(EncounterScene);
+            if (r < 10)
+            {
+                SceneManager.instance.changeScene(encounterScene);
             }
         }
     }

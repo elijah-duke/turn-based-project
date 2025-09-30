@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://771c2pw1sree"
-path="res://.godot/imported/Fly-Enemy-Hit-Sheet.png-af207a6ba4227410612799e1416eebfa.ctex"
+path="res://.godot/imported/Fly-Enemy-Hit-Sheet.png-2ad30f06dac6441d845bfa39706bbbff.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/sprites/creatures/insect/Fly-Enemy-Hit-Sheet.png"
-dest_files=["res://.godot/imported/Fly-Enemy-Hit-Sheet.png-af207a6ba4227410612799e1416eebfa.ctex"]
+source_file="res://assets/creatures/insect/Fly-Enemy-Hit-Sheet.png"
+dest_files=["res://.godot/imported/Fly-Enemy-Hit-Sheet.png-2ad30f06dac6441d845bfa39706bbbff.ctex"]
 
 [params]
 

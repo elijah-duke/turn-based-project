@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dkakxbi0lt42l"
-path="res://.godot/imported/Golem (No shading).png-3373d61bd3f156222a9909ece2c9628a.ctex"
+path="res://.godot/imported/Golem (No shading).png-576cf5f788782994b1366d247dc7f464.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/sprites/creatures/golem/Golem (No shading).png"
-dest_files=["res://.godot/imported/Golem (No shading).png-3373d61bd3f156222a9909ece2c9628a.ctex"]
+source_file="res://assets/creatures/golem/Golem (No shading).png"
+dest_files=["res://.godot/imported/Golem (No shading).png-576cf5f788782994b1366d247dc7f464.ctex"]
 
 [params]
 

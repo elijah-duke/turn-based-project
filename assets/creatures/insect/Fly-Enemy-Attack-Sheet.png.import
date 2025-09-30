@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://byoivqvk2fx0x"
-path="res://.godot/imported/Fly-Enemy-Attack-Sheet.png-9c358e47bf82afb97cc49e32aa36377d.ctex"
+path="res://.godot/imported/Fly-Enemy-Attack-Sheet.png-3457c00e669db6b2fc012113507caf75.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/sprites/creatures/insect/Fly-Enemy-Attack-Sheet.png"
-dest_files=["res://.godot/imported/Fly-Enemy-Attack-Sheet.png-9c358e47bf82afb97cc49e32aa36377d.ctex"]
+source_file="res://assets/creatures/insect/Fly-Enemy-Attack-Sheet.png"
+dest_files=["res://.godot/imported/Fly-Enemy-Attack-Sheet.png-3457c00e669db6b2fc012113507caf75.ctex"]
 
 [params]
 

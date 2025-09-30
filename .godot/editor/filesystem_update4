@@ -1,8 +1,11 @@
-res://scenes/levels/LevelOne.tscn
-res://scripts/levels/LevelBase.cs
-res://scripts/Player.cs
-res://scripts/TempBattle.cs
 res://scenes/Player.tscn
 res://scenes/levels/LevelBase.tscn
+res://scenes/levels/LevelOne.tscn
 res://scenes/TempBattle.tscn
 res://scenes/TempGym.tscn
+res://scripts/SceneManager.cs
+res://scripts/levels/LevelBase.cs
+res://scripts/TempBattle.cs
+res://scripts/Player.cs
+res://scenes/levels/LevelTwo.tscn
+res://scenes/levels/LevelThree.tscn

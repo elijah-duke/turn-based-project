@@ -1,8 +1,21 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1758741951
+::res://::1759218097
 icon.svg::CompressedTexture2D/CompressedTexture2D::53431069890402668::1757959211::1757959344::1::::<><><>0<>0<>b53be0f28dfaf50cae0e0ad790f6609b<>res://.godot/imported/icon.svg-218a8f2b3041327d8a5756f3a245f83b.ctex::
-::res://assets/::1758094230
+::res://assets/::1759211580
 level_tilemap.png::CompressedTexture2D/CompressedTexture2D::3913755822107603871::1735761900::1758094230::1::::<><><>0<>0<>b8ac433afa5ce01d9cc8cdb7a3d0f04b<>res://.godot/imported/level_tilemap.png-99e2a9ea4363aa4eabc58471a5973a84.ctex::
+::res://assets/creatures/::1759211588
+MouseSpritesheet.png::CompressedTexture2D/CompressedTexture2D::5292316887793123511::1759211580::1759211588::1::::<><><>0<>0<>49780b7fdf8ad80bc3c4d5db98fcb8b6<>res://.godot/imported/MouseSpritesheet.png-98330d37eb5cd3435ded705cf3799433.ctex::
+::res://assets/creatures/golem/::1759211588
+Golem (No shading).png::CompressedTexture2D/CompressedTexture2D::7861798796680256253::1759211580::1759211588::1::::<><><>0<>0<>8ce719fd04529a37e252199528b44f3c<>res://.godot/imported/Golem (No shading).png-576cf5f788782994b1366d247dc7f464.ctex::
+Golem Dying (No shading).png::CompressedTexture2D/CompressedTexture2D::3789922113154590430::1759211580::1759211588::1::::<><><>0<>0<>e694ae30b1ef63b2969a3e9424a81ef5<>res://.godot/imported/Golem Dying (No shading).png-13177cef9924ff162dd89fbce6623cae.ctex::
+Golem Heavy Walk (No shading).png::CompressedTexture2D/CompressedTexture2D::8206436475133778159::1759211580::1759211588::1::::<><><>0<>0<>8319895d64b9e834b15552ed4736b30a<>res://.godot/imported/Golem Heavy Walk (No shading).png-3d449797a29ac96945df5dc9246a2804.ctex::
+Golem Idle (No shading).png::CompressedTexture2D/CompressedTexture2D::3034966720373649196::1759211580::1759211588::1::::<><><>0<>0<>24eaf13813fe479ca5e5dfdbbc76339b<>res://.godot/imported/Golem Idle (No shading).png-4ef27da1c950de6cde6bff708ba90187.ctex::
+::res://assets/creatures/insect/::1759211588
+Fly-Enemy-Attack-Sheet.png::CompressedTexture2D/CompressedTexture2D::4100378330482003997::1759211580::1759211588::1::::<><><>0<>0<>522a76a6414089e0cb2ced2ece0397ef<>res://.godot/imported/Fly-Enemy-Attack-Sheet.png-3457c00e669db6b2fc012113507caf75.ctex::
+Fly-Enemy-Death-Sheet.png::CompressedTexture2D/CompressedTexture2D::1141495261409019991::1759211580::1759211588::1::::<><><>0<>0<>3eb5ec9b1b70e5af310a81ce7d5aaff6<>res://.godot/imported/Fly-Enemy-Death-Sheet.png-fc6e1c0b214a3e23e2841814fa966150.ctex::
+Fly-Enemy-Hit-Sheet.png::CompressedTexture2D/CompressedTexture2D::2313686740284258432::1759211580::1759211588::1::::<><><>0<>0<>e2122f4b9225ac90b277a564dd4d650f<>res://.godot/imported/Fly-Enemy-Hit-Sheet.png-2ad30f06dac6441d845bfa39706bbbff.ctex::
+Fly-Enemy-Idle-Blink-Sheet.png::CompressedTexture2D/CompressedTexture2D::7683289055746234891::1759211580::1759211588::1::::<><><>0<>0<>3ae8dd4f432ed64e2b73551d0b793287<>res://.godot/imported/Fly-Enemy-Idle-Blink-Sheet.png-ac622d9d9429e898c7c4f13bea61df98.ctex::
+Fly-Enemy-Idle-Sheet.png::CompressedTexture2D/CompressedTexture2D::1351777032487304230::1759211580::1759211588::1::::<><><>0<>0<>c42ec217457fad457a3f7d5926a47b79<>res://.godot/imported/Fly-Enemy-Idle-Sheet.png-63194de9e62053c2c7b556ed7ccdc9d0.ctex::
 ::res://assets/level_tiles/::1758093717
 tile_0000.png::CompressedTexture2D/CompressedTexture2D::2167198898423516607::1673551040::1758093717::1::::<><><>0<>0<>5074f233e223714caf7896c0e0331ecc<>res://.godot/imported/tile_0000.png-5939f18a2547298997ddd065ec15d77f.ctex::
 tile_0001.png::CompressedTexture2D/CompressedTexture2D::8687406880812723781::1673551040::1758093717::1::::<><><>0<>0<>e8caee31e7fe67d493b0babf1bcab71a<>res://.godot/imported/tile_0001.png-e666672c401a9fb8d0d350a9a339f22f.ctex::
@@ -136,16 +149,26 @@ tile_0128.png::CompressedTexture2D/CompressedTexture2D::2470510264175210488::167
 tile_0129.png::CompressedTexture2D/CompressedTexture2D::4567080324070465566::1673551044::1758093716::1::::<><><>0<>0<>ab20b1ca1bcf8f83bc808a58c6d664a5<>res://.godot/imported/tile_0129.png-2ac4ace0caec0e80da58721824e7fa94.ctex::
 tile_0130.png::CompressedTexture2D/CompressedTexture2D::3218729556731941522::1673551044::1758093716::1::::<><><>0<>0<>b6a1ecaa6d12bb241a7d868e828ffb59<>res://.godot/imported/tile_0130.png-3c74c403e5012db020d7349a67af342f.ctex::
 tile_0131.png::CompressedTexture2D/CompressedTexture2D::7030724625308761589::1673551044::1758093716::1::::<><><>0<>0<>c0b88af529ac1db7229859cbf1b839b6<>res://.godot/imported/tile_0131.png-2228d65e10cbd03c04f47bc59d0e29ab.ctex::
-::res://scenes/::1758741813
-Player.tscn::PackedScene::5914832750108279530::1758741812::0::1::::<><><>0<>0<><>::uid://bbgy7ch2a7sl1::::res://assets/level_tiles/tile_0128.png<>uid://drmnt3hji477c::::res://scripts/Player.cs
-TempBattle.tscn::PackedScene::8335635743257174162::1758741813::0::1::::<><><>0<>0<><>::uid://cn0lgahgk0hl5::::res://scripts/TempBattle.cs<>uid://c0ictaoq8bdq2::::res://scenes/levels/LevelBase.tscn
-TempGym.tscn::PackedScene::6158207038052254245::1758741813::0::1::::<><><>0<>0<><>::
-::res://scenes/levels/::1758741813
-LevelBase.tscn::PackedScene::6544232866837586911::1758741812::0::1::::<><><>0<>0<><>::uid://dbqiy8xpckfqh::::res://scripts/levels/LevelBase.cs<>uid://bv038sqwxnfwh::::res://assets/level_tilemap.png<>uid://cqjgowq6mqo15::::res://scenes/Player.tscn
-LevelOne.tscn::PackedScene::3355161417545703854::1758741813::0::1::::<><><>0<>0<><>::uid://c0ictaoq8bdq2::::res://scenes/levels/LevelBase.tscn
-::res://scripts/::1758741463
-Constants.cs::CSharpScript/CSharpScript::687632801383587479::1758731925::0::1::::<><><>0<>0<><>::
-Player.cs::CSharpScript::8378069658852950410::1758568928::0::1::::<>Node2D<><>0<>0<><>::
-TempBattle.cs::CSharpScript::5737584391316575896::1758739535::0::1::::<>Node2D<><>0<>0<><>::
+::res://scenes/::1759218097
+Player.tscn::PackedScene/PackedScene::5914832750108279530::1759217755::0::1::::<><><>0<>0<><>::uid://bbgy7ch2a7sl1::::res://assets/level_tiles/tile_0128.png<>uid://drmnt3hji477c::::res://scripts/Player.cs
+TempGymOne.tscn::PackedScene::6158207038052254245::1759211479::0::1::::<><><>0<>0<><>::
+::res://scenes/battles/::1759217886
+::res://scenes/battles/gym/::1759217886
+::res://scenes/battles/wild/::1759218085
+TempBattleOne.tscn::PackedScene::8335635743257174162::1759211479::0::1::::<><><>0<>0<><>::uid://cn0lgahgk0hl5::::res://scripts/TempBattle.cs
+::res://scenes/Entities/::1759211580
+GolemCreature.tscn::PackedScene/PackedScene::9218022664256718040::1759211580::0::1::::<><><>0<>0<><>::uid://bt84p018gbfb7::::res://assets/sprites/creatures/golem/Golem Dying (No shading).png<>uid://dkakxbi0lt42l::::res://assets/sprites/creatures/golem/Golem (No shading).png<>uid://bjifpt8yprjnw::::res://assets/sprites/creatures/golem/Golem Idle (No shading).png
+InsectCreature.tscn::PackedScene/PackedScene::7462956483290591853::1759211580::0::1::::<><><>0<>0<><>::uid://byoivqvk2fx0x::::res://assets/sprites/creatures/insect/Fly-Enemy-Attack-Sheet.png<>uid://ti2tngift3rm::::res://assets/sprites/creatures/insect/Fly-Enemy-Idle-Sheet.png<>uid://qi7i31fb1c7p::::res://assets/sprites/creatures/insect/Fly-Enemy-Death-Sheet.png<>uid://771c2pw1sree::::res://assets/sprites/creatures/insect/Fly-Enemy-Hit-Sheet.png
+MouseCreature.tscn::PackedScene/PackedScene::6742764595050240460::1759211580::0::1::::<><><>0<>0<><>::uid://chnvxk6t8fb72::::res://assets/sprites/creatures/MouseSpritesheet.png
+::res://scenes/levels/::1759218002
+LevelBase.tscn::PackedScene/PackedScene::6544232866837586911::1759217755::0::1::::<><><>0<>0<><>::uid://dbqiy8xpckfqh::::res://scripts/levels/LevelBase.cs<>uid://bv038sqwxnfwh::::res://assets/level_tilemap.png<>uid://cqjgowq6mqo15::::res://scenes/Player.tscn
+LevelOne.tscn::PackedScene/PackedScene::3355161417545703854::1759218002::0::1::::<><><>0<>0<><>::uid://c0ictaoq8bdq2::::res://scenes/levels/LevelBase.tscn
+LevelThree.tscn::PackedScene/PackedScene::3400629196770509901::1759217755::0::1::::<><><>0<>0<><>::uid://c0ictaoq8bdq2::::res://scenes/levels/LevelBase.tscn
+LevelTwo.tscn::PackedScene/PackedScene::1348114369378830798::1759217755::0::1::::<><><>0<>0<><>::uid://c0ictaoq8bdq2::::res://scenes/levels/LevelBase.tscn
+::res://scripts/::1758744861
+Constants.cs::CSharpScript/CSharpScript::687632801383587479::1758742546::0::1::::<><><>0<>0<><>::
+Player.cs::CSharpScript/CSharpScript::8378069658852950410::1758568928::0::1::::<>Node2D<><>0<>0<><>::
+SceneManager.cs::CSharpScript/CSharpScript::6291281560341653736::1759210965::0::1::::<>Node<><>0<>0<><>::
+TempBattle.cs::CSharpScript/CSharpScript::5737584391316575896::1759211052::0::1::::<>Node2D<><>0<>0<><>::
 ::res://scripts/levels/::1758511306
-LevelBase.cs::CSharpScript::7263011303263800907::1758741851::0::1::::<>Node2D<><>0<>0<><>::
+LevelBase.cs::CSharpScript/CSharpScript::7263011303263800907::1759213487::0::1::::<>Node2D<><>0<>0<><>::

@@ -15,6 +15,10 @@ run/main_scene="uid://bn2javhkd8wa5"
 config/features=PackedStringArray("4.4", "C#", "Forward Plus")
 config/icon="uid://bbgy7ch2a7sl1"
 
+[autoload]
+
+SceneManager="*res://scripts/SceneManager.cs"
+
 [dotnet]
 
 project/assembly_name="Turn Based Project"
