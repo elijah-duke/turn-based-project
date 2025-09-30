@@ -104,6 +104,7 @@ separation = Vector2i(1, 1)
 9:7/0 = 0
 10:7/0 = 0
 11:7/0 = 0
+11:7/0/custom_data_1 = true
 0:8/0 = 0
 1:8/0 = 0
 2:8/0 = 0
@@ -145,6 +146,8 @@ separation = Vector2i(1, 1)
 [sub_resource type="TileSet" id="TileSet_jguw4"]
 custom_data_layer_0/name = "wildGrass"
 custom_data_layer_0/type = 1
+custom_data_layer_1/name = "target"
+custom_data_layer_1/type = 1
 sources/0 = SubResource("TileSetAtlasSource_yn5qj")
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_5vqh1"]

@@ -14,6 +14,8 @@ public partial class LevelBase : Node2D
 
     [Export]
     public Scenes encounterScene;
+    [Export]
+    public Scenes gymScene;
     
     public override void _Ready()
     {
@@ -47,10 +49,18 @@ public partial class LevelBase : Node2D
         {
             Random rng = new Random();
             int r = rng.Next(100);
-            if (r < 10)
+            if (r < 5)
             {
                 SceneManager.instance.changeScene(encounterScene);
             }
+        }
+    }
+
+    public void GymChallenge()
+    {
+        if (SceneManager.instance != null)
+        {
+            SceneManager.instance.changeScene(gymScene);
         }
     }
 
@@ -60,6 +70,10 @@ public partial class LevelBase : Node2D
         if ((bool)ground.GetCellTileData(player.Coords).GetCustomData("wildGrass"))
         {
             Encounter();
+        }
+        else if ((bool)ground.GetCellTileData(player.Coords).GetCustomData("target"))
+        {
+            GymChallenge();
         }
         makeMove(getMove());
     }

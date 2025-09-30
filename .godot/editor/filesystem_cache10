@@ -1,5 +1,5 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1759218097
+::res://::1759222757
 icon.svg::CompressedTexture2D/CompressedTexture2D::53431069890402668::1757959211::1757959344::1::::<><><>0<>0<>b53be0f28dfaf50cae0e0ad790f6609b<>res://.godot/imported/icon.svg-218a8f2b3041327d8a5756f3a245f83b.ctex::
 ::res://assets/::1759211580
 level_tilemap.png::CompressedTexture2D/CompressedTexture2D::3913755822107603871::1735761900::1758094230::1::::<><><>0<>0<>b8ac433afa5ce01d9cc8cdb7a3d0f04b<>res://.godot/imported/level_tilemap.png-99e2a9ea4363aa4eabc58471a5973a84.ctex::
@@ -149,26 +149,36 @@ tile_0128.png::CompressedTexture2D/CompressedTexture2D::2470510264175210488::167
 tile_0129.png::CompressedTexture2D/CompressedTexture2D::4567080324070465566::1673551044::1758093716::1::::<><><>0<>0<>ab20b1ca1bcf8f83bc808a58c6d664a5<>res://.godot/imported/tile_0129.png-2ac4ace0caec0e80da58721824e7fa94.ctex::
 tile_0130.png::CompressedTexture2D/CompressedTexture2D::3218729556731941522::1673551044::1758093716::1::::<><><>0<>0<>b6a1ecaa6d12bb241a7d868e828ffb59<>res://.godot/imported/tile_0130.png-3c74c403e5012db020d7349a67af342f.ctex::
 tile_0131.png::CompressedTexture2D/CompressedTexture2D::7030724625308761589::1673551044::1758093716::1::::<><><>0<>0<>c0b88af529ac1db7229859cbf1b839b6<>res://.godot/imported/tile_0131.png-2228d65e10cbd03c04f47bc59d0e29ab.ctex::
-::res://scenes/::1759218097
+::res://scenes/::1759218652
 Player.tscn::PackedScene/PackedScene::5914832750108279530::1759217755::0::1::::<><><>0<>0<><>::uid://bbgy7ch2a7sl1::::res://assets/level_tiles/tile_0128.png<>uid://drmnt3hji477c::::res://scripts/Player.cs
-TempGymOne.tscn::PackedScene::6158207038052254245::1759211479::0::1::::<><><>0<>0<><>::
-::res://scenes/battles/::1759217886
-::res://scenes/battles/gym/::1759217886
-::res://scenes/battles/wild/::1759218085
-TempBattleOne.tscn::PackedScene::8335635743257174162::1759211479::0::1::::<><><>0<>0<><>::uid://cn0lgahgk0hl5::::res://scripts/TempBattle.cs
 ::res://scenes/Entities/::1759211580
 GolemCreature.tscn::PackedScene/PackedScene::9218022664256718040::1759211580::0::1::::<><><>0<>0<><>::uid://bt84p018gbfb7::::res://assets/sprites/creatures/golem/Golem Dying (No shading).png<>uid://dkakxbi0lt42l::::res://assets/sprites/creatures/golem/Golem (No shading).png<>uid://bjifpt8yprjnw::::res://assets/sprites/creatures/golem/Golem Idle (No shading).png
 InsectCreature.tscn::PackedScene/PackedScene::7462956483290591853::1759211580::0::1::::<><><>0<>0<><>::uid://byoivqvk2fx0x::::res://assets/sprites/creatures/insect/Fly-Enemy-Attack-Sheet.png<>uid://ti2tngift3rm::::res://assets/sprites/creatures/insect/Fly-Enemy-Idle-Sheet.png<>uid://qi7i31fb1c7p::::res://assets/sprites/creatures/insect/Fly-Enemy-Death-Sheet.png<>uid://771c2pw1sree::::res://assets/sprites/creatures/insect/Fly-Enemy-Hit-Sheet.png
 MouseCreature.tscn::PackedScene/PackedScene::6742764595050240460::1759211580::0::1::::<><><>0<>0<><>::uid://chnvxk6t8fb72::::res://assets/sprites/creatures/MouseSpritesheet.png
-::res://scenes/levels/::1759218002
-LevelBase.tscn::PackedScene/PackedScene::6544232866837586911::1759217755::0::1::::<><><>0<>0<><>::uid://dbqiy8xpckfqh::::res://scripts/levels/LevelBase.cs<>uid://bv038sqwxnfwh::::res://assets/level_tilemap.png<>uid://cqjgowq6mqo15::::res://scenes/Player.tscn
-LevelOne.tscn::PackedScene/PackedScene::3355161417545703854::1759218002::0::1::::<><><>0<>0<><>::uid://c0ictaoq8bdq2::::res://scenes/levels/LevelBase.tscn
-LevelThree.tscn::PackedScene/PackedScene::3400629196770509901::1759217755::0::1::::<><><>0<>0<><>::uid://c0ictaoq8bdq2::::res://scenes/levels/LevelBase.tscn
-LevelTwo.tscn::PackedScene/PackedScene::1348114369378830798::1759217755::0::1::::<><><>0<>0<><>::uid://c0ictaoq8bdq2::::res://scenes/levels/LevelBase.tscn
-::res://scripts/::1758744861
+::res://scenes/levels/::1759222536
+LevelBase.tscn::PackedScene::6544232866837586911::1759222238::0::1::::<><><>0<>0<><>::uid://dbqiy8xpckfqh::::res://scripts/levels/LevelBase.cs<>uid://bv038sqwxnfwh::::res://assets/level_tilemap.png<>uid://cqjgowq6mqo15::::res://scenes/Player.tscn
+LevelOne.tscn::PackedScene::3355161417545703854::1759222238::0::1::::<><><>0<>0<><>::uid://c0ictaoq8bdq2::::res://scenes/levels/LevelBase.tscn
+LevelThree.tscn::PackedScene::3400629196770509901::1759222238::0::1::::<><><>0<>0<><>::uid://c0ictaoq8bdq2::::res://scenes/levels/LevelBase.tscn
+LevelTwo.tscn::PackedScene::1348114369378830798::1759222536::0::1::::<><><>0<>0<><>::uid://c0ictaoq8bdq2::::res://scenes/levels/LevelBase.tscn
+::res://scenes/temp battles/::1759217886
+::res://scenes/temp battles/gym/::1759222757
+TempGymOne.tscn::PackedScene::6158207038052254245::1759222757::0::1::::<><><>0<>0<><>::uid://5e3ktjjof4u5::::res://scenes/temp battles/wild/TempGymOne.cs
+TempGymThree.tscn::PackedScene/PackedScene::2152476937317293562::1759218606::0::1::::<><><>0<>0<><>::
+TempGymTwo.tscn::PackedScene::603196996662452145::1759222536::0::1::::<><><>0<>0<><>::
+::res://scenes/temp battles/wild/::1759222757
+TempBattleOne.tscn::PackedScene::8335635743257174162::1759222238::0::1::::<><><>0<>0<><>::uid://cn0lgahgk0hl5::::res://scripts/temp battles/wild/TempBattleOne.cs
+TempBattleThree.tscn::PackedScene::3894481013922023779::1759218668::0::1::::<><><>0<>0<><>::uid://cn0lgahgk0hl5::::res://scripts/temp battles/wild/TempBattleOne.cs
+TempBattleTwo.tscn::PackedScene::4542167887471591569::1759222536::0::1::::<><><>0<>0<><>::uid://cn0lgahgk0hl5::::res://scripts/temp battles/wild/TempBattleOne.cs
+TempGymOne.cs::CSharpScript::2115641766168471330::1759219583::0::1::::<><><>0<>0<><>::
+::res://scripts/::1759218668
 Constants.cs::CSharpScript/CSharpScript::687632801383587479::1758742546::0::1::::<><><>0<>0<><>::
 Player.cs::CSharpScript/CSharpScript::8378069658852950410::1758568928::0::1::::<>Node2D<><>0<>0<><>::
-SceneManager.cs::CSharpScript/CSharpScript::6291281560341653736::1759210965::0::1::::<>Node<><>0<>0<><>::
-TempBattle.cs::CSharpScript/CSharpScript::5737584391316575896::1759211052::0::1::::<>Node2D<><>0<>0<><>::
+SceneManager.cs::CSharpScript::6291281560341653736::1759218825::0::1::::<>Node<><>0<>0<><>::
 ::res://scripts/levels/::1758511306
-LevelBase.cs::CSharpScript/CSharpScript::7263011303263800907::1759213487::0::1::::<>Node2D<><>0<>0<><>::
+LevelBase.cs::CSharpScript::7263011303263800907::1759222421::0::1::::<>Node2D<><>0<>0<><>::
+::res://scripts/temp battles/::1759218284
+::res://scripts/temp battles/gym/::1759218278
+::res://scripts/temp battles/wild/::1759218385
+TempBattleOne.cs::CSharpScript::5737584391316575896::1759219218::0::1::::<>Node2D<><>0<>0<><>::
+TempBattleThree.cs::CSharpScript::3148956710936064875::1759219237::0::1::::<>Node2D<><>0<>0<><>::
+TempBattleTwo.cs::CSharpScript::5946698875779931922::1759219243::0::1::::<>Node2D<><>0<>0<><>::

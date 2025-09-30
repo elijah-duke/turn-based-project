@@ -1,7 +1,7 @@
 using Godot;
 using System;
 
-public partial class TempBattle : Node2D
+public partial class TempBattleOne : Node2D
 {
     
     private void ButtonPressed()

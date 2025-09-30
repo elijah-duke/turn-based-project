@@ -18,8 +18,18 @@ public class SceneData
 public enum Scenes
 {
     LevelOne,
-    TempBattle,
-    TempGym
+    TempBattleOne,
+    TempGymOne,
+
+
+    LevelTwo,
+    TempBattleTwo,
+    TempGymTwo,
+
+
+    LevelThree,
+    TempBattleThree,
+    TempGymThree
 }
 
 
@@ -30,8 +40,16 @@ public partial class SceneManager : Node
     public Dictionary<Scenes, SceneData> sceneDictionary = new Dictionary<Scenes, SceneData>()
     {
         { Scenes.LevelOne, new SceneData("res://scenes/levels/LevelOne.tscn", "Level One") },
-        { Scenes.TempBattle, new SceneData("res://scenes/TempBattle.tscn", "Temp Battle") },
-        { Scenes.TempGym, new SceneData("res://scenes/TempGym.tscn", "Temp Gym") }
+        { Scenes.TempBattleOne, new SceneData("res://scenes/temp battles/wild/TempBattleOne.tscn", "Temp Battle One") },
+        { Scenes.TempGymOne, new SceneData("res://scenes/temp battles/gym/TempGymOne.tscn", "Temp Gym One") },
+
+        { Scenes.LevelTwo, new SceneData("res://scenes/levels/LevelTwo.tscn", "Level Two") },
+        { Scenes.TempBattleTwo, new SceneData("res://scenes/temp battles/wild/TempBattleTwo.tscn", "Temp Battle Two") },
+        { Scenes.TempGymTwo, new SceneData("res://scenes/temp battles/gym/TempGymTwo.tscn", "Temp Gym Two") },
+
+        { Scenes.LevelThree, new SceneData("res://scenes/levels/LevelThree.tscn", "Level Three") },
+        { Scenes.TempBattleThree, new SceneData("res://scenes/temp battles/wild/TempBattleThree.tscn", "Temp Battle Three") },
+        { Scenes.TempGymThree, new SceneData("res://scenes/temp battles/gym/TempGymThree.tscn", "Temp Gym Three") }
     };
 
     public override void _Ready()
