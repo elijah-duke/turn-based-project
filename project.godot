@@ -19,6 +19,11 @@ config/icon="uid://bbgy7ch2a7sl1"
 
 SceneManager="*res://scripts/SceneManager.cs"
 
+[display]
+
+window/size/viewport_width=1024
+window/size/viewport_height=576
+
 [dotnet]
 
 project/assembly_name="Turn Based Project"
@@ -28,7 +33,9 @@ project/assembly_name="Turn Based Project"
 folder_colors={
 "res://assets/": "pink",
 "res://scenes/": "yellow",
-"res://scripts/": "teal"
+"res://scenes/levels/": "orange",
+"res://scripts/": "teal",
+"res://scripts/levels/": "blue"
 }
 
 [input]

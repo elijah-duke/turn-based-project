@@ -1,9 +1,9 @@
 [gd_scene load_steps=28 format=3 uid="uid://deld2kgj4ttxl"]
 
-[ext_resource type="Texture2D" uid="uid://byoivqvk2fx0x" path="res://assets/sprites/creatures/insect/Fly-Enemy-Attack-Sheet.png" id="1_1gdyt"]
-[ext_resource type="Texture2D" uid="uid://ti2tngift3rm" path="res://assets/sprites/creatures/insect/Fly-Enemy-Idle-Sheet.png" id="2_6tsrs"]
-[ext_resource type="Texture2D" uid="uid://qi7i31fb1c7p" path="res://assets/sprites/creatures/insect/Fly-Enemy-Death-Sheet.png" id="3_xqa7q"]
-[ext_resource type="Texture2D" uid="uid://771c2pw1sree" path="res://assets/sprites/creatures/insect/Fly-Enemy-Hit-Sheet.png" id="4_pb88s"]
+[ext_resource type="Texture2D" uid="uid://byoivqvk2fx0x" path="res://assets/creatures/insect/Fly-Enemy-Attack-Sheet.png" id="1_1gdyt"]
+[ext_resource type="Texture2D" uid="uid://ti2tngift3rm" path="res://assets/creatures/insect/Fly-Enemy-Idle-Sheet.png" id="2_6tsrs"]
+[ext_resource type="Texture2D" uid="uid://qi7i31fb1c7p" path="res://assets/creatures/insect/Fly-Enemy-Death-Sheet.png" id="3_xqa7q"]
+[ext_resource type="Texture2D" uid="uid://771c2pw1sree" path="res://assets/creatures/insect/Fly-Enemy-Hit-Sheet.png" id="4_pb88s"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_3ci7d"]
 atlas = ExtResource("1_1gdyt")
@@ -192,6 +192,6 @@ animations = [{
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
 position = Vector2(8, 8)
 sprite_frames = SubResource("SpriteFrames_bwau2")
-animation = &"idle"
-frame = 1
-frame_progress = 0.00109108
+animation = &"hurt"
+frame = 2
+frame_progress = 1.0

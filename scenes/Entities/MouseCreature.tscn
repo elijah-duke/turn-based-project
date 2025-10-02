@@ -1,6 +1,6 @@
 [gd_scene load_steps=13 format=3 uid="uid://c3cil288fwj7i"]
 
-[ext_resource type="Texture2D" uid="uid://chnvxk6t8fb72" path="res://assets/sprites/creatures/MouseSpritesheet.png" id="1_h8jgs"]
+[ext_resource type="Texture2D" uid="uid://chnvxk6t8fb72" path="res://assets/creatures/MouseSpritesheet.png" id="1_h8jgs"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_h8jgs"]
 atlas = ExtResource("1_h8jgs")
@@ -93,5 +93,7 @@ animations = [{
 [node name="MouseCreature" type="Node2D"]
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+position = Vector2(8, 0)
 sprite_frames = SubResource("SpriteFrames_1orgn")
-animation = &"hurt"
+animation = &"idle"
+frame_progress = 0.329238
