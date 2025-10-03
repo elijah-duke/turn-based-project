@@ -4,12 +4,12 @@ using System.Reflection.Metadata.Ecma335;
 
 public partial class BattleBase : Node2D
 {
-
 	public enum Moves
 	{
 		Attack,
 		Defend,
-		Skills
+		Skills,
+		Pass
 	}
 
 	struct Fighter
@@ -73,6 +73,11 @@ public partial class BattleBase : Node2D
 	private Fighter player;
 	private Fighter rival;
 
+	[Export]
+	public Scenes loseScene;
+	[Export]
+	public Scenes winScene;
+
 	private Button attackButton;
 	private Button defendButton;
 	private Button skillsButton;
@@ -89,6 +94,9 @@ public partial class BattleBase : Node2D
 	public int rivalPickDefChance = 30;
 	[Export]
 	public int rivalPickSkPChance = 30;
+
+	[Export]
+	public bool isGym = false;
 
 
 	public override void _Ready()
@@ -175,8 +183,15 @@ public partial class BattleBase : Node2D
 		int r = rng.Next(100);
 		if (r < rivalPickAtkChance)
 		{
-			rivalMove = Moves.Attack;
+			rivalMove = Moves.Pass;
+			rival.resetDef();
 			GD.Print("Attack");
+			if (rival.getSkillPoints() > 0)
+			{
+				rivalMove = Moves.Attack;
+				rival.decSkillPoints();
+			}
+
 		}
 		else if (r < rivalPickAtkChance + rivalPickDefChance)
 		{
@@ -185,8 +200,14 @@ public partial class BattleBase : Node2D
 		}
 		else
 		{
-			rivalMove = Moves.Skills;
+			rivalMove = Moves.Pass;
+			rival.resetDef();
 			GD.Print("Skills");
+			if (rival.getSkillPoints() < 3)
+			{
+				rivalMove = Moves.Skills;
+				rival.incSkillPoints();
+			}
 		}
 
 		return rivalMove;
@@ -203,6 +224,7 @@ public partial class BattleBase : Node2D
 		}
 
 		updateText();
+		winCondition();
 
 		if (rivalMove == Moves.Attack &&
 			(playerMove != Moves.Defend || playerMove == Moves.Defend && !player.isBlocked()))
@@ -221,6 +243,28 @@ public partial class BattleBase : Node2D
 
 		updateText();
 		buttonVisibility();
+		winCondition();
+	}
+
+	private void winCondition()
+	{
+		if (player.getHealth() <= 0)
+		{
+			if (isGym)
+			{
+				SceneManager.instance.SetPlayerPos(Vector2I.Zero);
+			}
+			SceneManager.instance.ChangeScene(loseScene);
+		}
+		else if (rival.getHealth() <= 0)
+		{
+			if (isGym)
+			{
+				SceneManager.instance.SetPlayerPos(Vector2I.Zero);
+			}
+			SceneManager.instance.ChangeScene(winScene);
+		}
+
 	}
 	
 }

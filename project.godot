@@ -33,6 +33,7 @@ project/assembly_name="Turn Based Project"
 folder_colors={
 "res://assets/": "pink",
 "res://scenes/": "yellow",
+"res://scenes/battles/": "red",
 "res://scenes/levels/": "orange",
 "res://scripts/": "teal",
 "res://scripts/levels/": "blue"

@@ -1,0 +1,11 @@
+[gd_scene load_steps=2 format=3 uid="uid://bqv85vqq2414w"]
+
+[ext_resource type="PackedScene" uid="uid://b54lsr70lwpl8" path="res://scenes/battles/BattleBase.tscn" id="1_7ai17"]
+
+[node name="BattleBase" instance=ExtResource("1_7ai17")]
+loseScene = 3
+winScene = 6
+rivalPickAtkChance = 30
+rivalPickDefChance = 60
+rivalPickSkPChance = 10
+isGym = true

@@ -1,6 +1,7 @@
+Node2D
+Label
 Camera2D
 Control
-Label
 Button
 CanvasGroup
 TileMapLayer

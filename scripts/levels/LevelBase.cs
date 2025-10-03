@@ -20,6 +20,9 @@ public partial class LevelBase : Node2D
     public override void _Ready()
     {
         player = GetNode<Player>("Player");
+        player.Position = SceneManager.instance.GetPlayerPos();
+        GD.Print("Hello, World");
+       
         ground = GetNode<TileMapLayer>("Ground");
         walls = GetNode<TileMapLayer>("Walls");
     }
@@ -51,7 +54,9 @@ public partial class LevelBase : Node2D
             int r = rng.Next(100);
             if (r < 5)
             {
-                SceneManager.instance.changeScene(encounterScene);
+
+                SceneManager.instance.SetPlayerPos(new Vector2I((int)Math.Round(player.Position.X), (int)Math.Round(player.Position.Y)));
+                SceneManager.instance.ChangeScene(encounterScene);
             }
         }
     }
@@ -60,7 +65,7 @@ public partial class LevelBase : Node2D
     {
         if (SceneManager.instance != null)
         {
-            SceneManager.instance.changeScene(gymScene);
+            SceneManager.instance.ChangeScene(gymScene);
         }
     }
 
