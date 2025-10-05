@@ -73,6 +73,8 @@ public partial class BattleBase : Node2D
 	private Fighter player;
 	private Fighter rival;
 
+	
+
 	[Export]
 	public Scenes loseScene;
 	[Export]
@@ -191,7 +193,6 @@ public partial class BattleBase : Node2D
 				rivalMove = Moves.Attack;
 				rival.decSkillPoints();
 			}
-
 		}
 		else if (r < rivalPickAtkChance + rivalPickDefChance)
 		{

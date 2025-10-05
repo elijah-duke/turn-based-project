@@ -34,7 +34,7 @@ public partial class Player : Node2D
 	{
 		playerSprite = GetNode<Sprite2D>("PlayerSprite");
 	}
-
+	
 
 	public void Move(Direction direction)
 	{

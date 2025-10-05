@@ -1,20 +1,13 @@
 res://scripts/battles/BattleBase.cs
+res://scenes/battles/wild/WildThree.tscn
+res://scenes/battles/gym/GymThree.tscn
+res://scenes/levels/LevelThree.tscn
+res://scenes/Entities/InsectCreature.tscn
+res://scenes/Player.tscn
+res://scenes/Entities/MouseCreature.tscn
 res://scenes/battles/BattleBase.tscn
 res://scripts/levels/LevelBase.cs
-res://scripts/temp battles/gym/TempGymTwo.cs
-res://scripts/temp battles/wild/TempBattleThree.cs
+res://scripts/MouseCreature.cs
+res://scripts/InsectCreature.cs
 res://scripts/Player.cs
-res://scripts/temp battles/wild/TempBattleTwo.cs
-res://scripts/temp battles/gym/TempGymOne.cs
 res://scripts/SceneManager.cs
-res://scripts/temp battles/wild/TempBattleOne.cs
-res://scenes/Win.tscn
-res://scenes/battles/gym/GymOne.tscn
-res://scenes/battles/gym/GymThree.tscn
-res://scenes/battles/gym/GymTwo.tscn
-res://scenes/battles/wild/WildThree.tscn
-res://scenes/battles/wild/WildTwo.tscn
-res://scenes/levels/LevelOne.tscn
-res://scenes/levels/LevelTwo.tscn
-res://scenes/battles/wild/WildOne.tscn
-res://scenes/levels/LevelThree.tscn
